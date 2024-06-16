@@ -1,6 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+
+
 body {
   text-align: center;
-  background-color: #283149;
+  background-color: #3d528c;
 }
 
 h1 {
@@ -72,21 +88,33 @@ footer {
   text-shadow: 3px 0 #DBEDF3;
   border-radius: 15px;
   /* display: inline-block; */
-  width: 150px;
-  height: 150px;
+  width: 170px;
+  height: 170px;
   text-align: center;
   margin: 10px;
   background-color: white;
 
 }
 
-@media(max-width: 600px) {
+@media(max-width: 550px) {
   body {
-    background-color: rebeccapurple;
+    background-color: rgb(48, 66, 156);
+    margin-top: 100px;
   }
 
   #title {
     font-size: 3rem;
+  }
+
+  .set {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .l {
+    /* margin-left: 110%; */
   }
 
   .drum {
