@@ -15,7 +15,8 @@ document.addEventListener("keypress", function (event) {
   buttonAnimation(event.key);
 });
 
-function makeSound(key) {     //SOUND FUNCTION
+function makeSound(key) {
+  //SOUND FUNCTION
   switch (key) {
     case "w":
       var tom1 = new Audio("sounds/tom-1.mp3");
